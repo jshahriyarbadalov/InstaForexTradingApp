@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.Main.Main">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        tools:ignore="UselessParent">
+
+        <EditText
+            android:id="@+id/edit_login"
+            android:hint="@string/edit_text_login"
+            android:inputType="text"
+            android:textColor="@color/menuTextColor"
+            android:textColorHint="@color/hintTextColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:hint="@string/edit_text_password"
+            android:inputType="textPassword"
+            android:textColor="@color/menuTextColor"
+            android:textColorHint="@color/hintTextColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill" />
+
+        <Button
+            android:id="@+id/button_login"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textSize="18sp"
+            android:textColorHint="@color/menuTextColor"
+            android:backgroundTint="@color/backgroundTintButton"
+            android:hint="@string/edit_text_enter" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="90dp"
+        android:contentDescription="@string/logo"
+        app:srcCompat="@drawable/logo" />
+</RelativeLayout>

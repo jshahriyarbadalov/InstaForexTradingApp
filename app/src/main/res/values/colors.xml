@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A237E</color>
+    <color name="navigationBarColor">#565B7C</color>
+
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorAccent">#5C6BC0</color>
+
+    <color name="windowBackground">#565B7C</color>
+    <color name="itemBackground">#3F51B5</color>
+
+    <color name="menuTextColor">#FFFFFF</color>
+    <color name="hintTextColor">#B1B0B0</color>
+    <color name="textViewTextColor">#FFC562</color>
+    <color name="textViewShadowColor">#000000</color>
+
+    <color name="cardViewBackgroundTintColor">#8C9EFF</color>
+    <color name="backgroundTintButton">#476C91</color>
+</resources>

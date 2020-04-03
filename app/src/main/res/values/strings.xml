@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Instaforex</string>
+    <string name="title_activity_signals">List of signals</string>
+    <string name="logo"></string>
+    <string name="edit_text_login">Username</string>
+    <string name="edit_text_password">Password</string>
+    <string name="edit_text_enter">Login</string>
+    <string name="data_error">Error loading data!</string>
+
+    <string name="textView_from">From: 05.03.2018 (click to change)</string>
+    <string name="textView_to">To: 10.03.2020 (click to change)</string>
+    <string name="todo">TODO</string>
+
+
+</resources>

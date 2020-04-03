@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.Signals.Signals">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:visibility="visible"
+        android:layout_width="94dp"
+        android:layout_height="94dp"
+        android:clickable="false"
+        android:indeterminate="true"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:indeterminateTint="@color/textViewTextColor"
+        android:indeterminateTintMode="src_in" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:clickable="true"
+            android:dropDownWidth="fill_parent"
+            android:textAlignment="textStart"
+            android:popupBackground="@color/colorAccent"
+            android:background="@color/cardViewBackgroundTintColor"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/textView_from" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/textView_to" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/activity_signals_content" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
